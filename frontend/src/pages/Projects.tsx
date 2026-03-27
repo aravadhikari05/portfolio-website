@@ -17,11 +17,11 @@ const PROJECTS = [
     image: "/lexter.png",
   },
   {
-    title: "Snap AR Studio",
+    title: "Causal Key-Value Store",
     description:
-      "A collection of AI-powered augmented reality experiences built for Snap Spectacles. Combines hand tracking, world meshing, and generative models to create immersive lenses that react to the environment in real time.",
-    technologies: ["TypeScript", "Lens Studio", "Three.js"],
-    image: "https://placehold.co/800x500/171717/404040?text=Snap+AR+Studio",
+      "A distributed, sharded key-value store built from scratch to demonstrate causal consistency using vector clocks and gossip-based replication. Supports dynamic resharding, node failures, and key migration, with an interactive CLI simulator for visualizing how the system behaves in real time.",
+    technologies: ["Python", "Distributed Systems"],
+    image: "/causal-kv-store.png",
   }
 ];
 
