@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+}
+
+html {
+  background-color: #0a0a0a;
+  cursor: none;
+}
+
+* {
+  cursor: none !important;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
