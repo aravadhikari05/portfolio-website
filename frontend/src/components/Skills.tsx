@@ -8,12 +8,15 @@ const fadeUp = (delay: number) => ({
 
 const LANGUAGES = [
   "Python", "TypeScript", "JavaScript", "C / C++",
-  "Java", "SQL", "HTML / CSS", "GLSL",
+  "Java", "SQL", "Redux", "GraphQL", "WebSockets",
+  "Git / GitHub", "Linux",
 ];
 
 const TOOLS = [
-  "React", "Node.js", "Vite", "TailwindCSS",
-  "OpenGL", "PostgreSQL", "Git", "Docker",
+  "React", "Node.js", "Next.js",
+  "FastAPI", "PostgreSQL", "Docker",
+  "AWS", "Terraform", "Redis", "PyTorch",
+  "OpenGL", "Playwright", "Github Actions",
 ];
 
 function SkillTag({ label, delay }: { label: string; delay: number }) {
